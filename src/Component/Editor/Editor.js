@@ -5,7 +5,7 @@ export default class File extends Component {
 
     render(){
         return(
-            <span className="editor-section">{this.props.editorContent}</span>
+            <div className="editor-section">{this.props.editorContent}</div>
         );
     }
 }

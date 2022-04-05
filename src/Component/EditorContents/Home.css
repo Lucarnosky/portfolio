@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center ;
+    padding-top:10px;
 }
 
 .homeContent-title{
@@ -15,6 +16,14 @@
     text-align:right;/* and here*/
 }
 
+.homeContent-summary{
+    display: flex;
+    flex:1;
+    font-size: 2em;
+    padding-left:10px;
+    font-weight: 700;
+}
+
 .homeContent-sections{
     display: flex;
     flex-direction: row;
@@ -23,15 +32,10 @@
     justify-content: flex-start;
     border-bottom: 1px solid #4D4D4D;
     margin-top:20px;
+    max-height: 50px;
 }
 
-.homeContent-summary{
-    display: flex;
-    flex:2;
-    font-size: 2em;
-    padding-left:10px;
-    font-weight: 700;
-}
+
 
 .smaller-text{
     font-size: 0.6em;
@@ -41,7 +45,6 @@
     align-items: center;
     justify-content: center ;
     font-size: 1em;
-    padding:10px;
     flex:1;
     width:75%;
 }

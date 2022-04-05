@@ -11,6 +11,8 @@
     flex:3;
     width:100%;
     padding-right: 50px;
+    overflow-y: scroll;
+    max-height: calc(100vh - 250px);
 }
 
 .detail-left-title{
@@ -20,7 +22,6 @@
     font-weight: 500;
     font-size: 2em;
     color:#D4D4D4;
-    
     border-bottom: 1px solid #4D4D4D;
 }
 .detail-right-content{
@@ -29,3 +30,24 @@
     width:100%;
     background-color: green;
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #1E1E1E; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #525252; 
+    opacity: 0.5;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #525252; 
+    opacity: 1;
+  }

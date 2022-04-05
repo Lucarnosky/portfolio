@@ -32,8 +32,8 @@ export default class MainPage extends Component {
             <div className="wrapper">
                 <div className="page-header">
                     <span className="menu-voice">File</span>
-                    <span className="menu-voice">Modifica</span>
-                    <span className="menu-voice">Selezione</span>
+                    <span className="menu-voice">Edit</span>
+                    <span className="menu-voice">Select</span>
                 </div>
                 <div className="page-main">
                     <span className="icon-section">
@@ -43,7 +43,7 @@ export default class MainPage extends Component {
                             <Icon icon={faMagnifyingGlass} onClick={() => this.handleSelectOption("Search")} selected={this.isSelected("Search")} />
                         </div>
                     </span>
-                    <span className="left-sidebar"><FileSection title="Editor Aperti" editorContent={this.setEditorContent}/></span>
+                    <span className="left-sidebar"><FileSection title="Open Pages" editorContent={this.setEditorContent}/></span>
                     <Editor editorContent={this.getEditorContent()}/>
                 </div>
                 <div className="page-footer">

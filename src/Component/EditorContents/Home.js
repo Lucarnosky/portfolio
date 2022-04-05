@@ -22,10 +22,10 @@ export default class HomeSection extends Component {
             <div className='homeContent'>
                 <div className='homeContent-title'>
                     <div className='homeContent-image'>
-                        <img src="https://preview.redd.it/v0caqchbtn741.jpg?auto=webp&s=c5d05662a039c031f50032e22a7c77dfcf1bfddc" height="150px" alt="" />
+                        <img src="https://fiverr-res.cloudinary.com/image/upload/t_profile_original,q_auto,f_auto/v1/attachments/profile/photo/9c3fb1c98976cabc81e461bda28530ef-1564740780188/3b75e96b-5dbd-483d-bf34-7b73d3dcafba.jpg" height="150px" alt="" />
                     </div>
                     <div className="homeContent-summary">
-                        <span>Ciccio Pasticcio<br /> <span className='smaller-text'>Italy | 22.01.1991 | 5/5</span><br /> <span className='smaller-text'>Full Stack Developer</span></span>
+                        <span>Matteo Lucarno<br /> <span className='smaller-text'>Italy | 22.01.1991 | 5/5</span><br /> <span className='smaller-text'>Full Stack Developer</span></span>
                     </div>
                 </div>
                 <div className="homeContent-sections">

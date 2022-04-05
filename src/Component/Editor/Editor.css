@@ -5,4 +5,5 @@
     background-color: #1E1E1E;
     justify-content: flex-start;
     align-items: flex-start;
+    max-height: calc(100vh - 44px);
   }

@@ -1,16 +1,21 @@
 .wrapper {
   display: flex;
+  flex: 1;
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
   flex-direction: column;
   min-height: 100vh;
+  max-height: 100vh;
   background-color: #1E1E1E;
   color:white;
 }
+
 .page-header{
   flex:1;
   flex-direction:row;
   background-color: #3C3C3C;
   color: #CCCCCC;
-  min-height: 23px;
   max-height: 23px;
   font-size: 14px;
 }
@@ -47,6 +52,7 @@
   padding-left: 5px;
   padding-right: 5px;
   cursor:context-menu;
+  height:100%;
 }
 .menu-voice:hover{
   background-color: #505050;  
