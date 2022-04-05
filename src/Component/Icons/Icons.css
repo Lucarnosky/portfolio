@@ -1,0 +1,15 @@
+.icon {
+    color: #778585;
+    padding: 5px;
+    border-left: 2px solid #333333;
+}
+
+.icon:hover {
+    color: #DEFFFF;
+}
+
+.selected-icon {
+    color: #DEFFFF !important;
+    border-left: 2px solid #DEFFFF;
+    padding: 5px;
+}

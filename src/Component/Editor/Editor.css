@@ -1,0 +1,8 @@
+.editor-section{
+    display: flex;
+    flex:22;
+    flex-direction: column;
+    background-color: #1E1E1E;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
