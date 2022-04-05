@@ -46,6 +46,7 @@
   text-align: center;
   padding-left: 5px;
   padding-right: 5px;
+  cursor:context-menu;
 }
 .menu-voice:hover{
   background-color: #505050;  
@@ -53,7 +54,6 @@
 .body {
   display: flex;
   flex-direction: column;
-  font-family:Consolas;
 }
 
 @font-face {

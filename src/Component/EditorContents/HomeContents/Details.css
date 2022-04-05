@@ -1,0 +1,31 @@
+.detail-content{
+    display: flex;
+    flex:1;
+    width:100%;
+    color:#D4D4D4;
+}
+
+.detail-left-content{
+    display: flex;
+    flex-direction: column;
+    flex:3;
+    width:100%;
+    padding-right: 50px;
+}
+
+.detail-left-title{
+    display: flex;
+    flex:1;
+    width:100%;
+    font-weight: 500;
+    font-size: 2em;
+    color:#D4D4D4;
+    
+    border-bottom: 1px solid #4D4D4D;
+}
+.detail-right-content{
+    display: flex;
+    flex:1;
+    width:100%;
+    background-color: green;
+}

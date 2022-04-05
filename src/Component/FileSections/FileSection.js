@@ -21,13 +21,13 @@ export default class FileSection extends Component {
         return this.state.isCollapsed;
     }
 
-    setSelectedFile(fileName,section ){
+    setSelectedFile(fileName, section) {
         console.log(section);
         this.setState({ selectedFile: fileName });
         this.props.editorContent(section);
     }
 
-    isSelected(fileName){
+    isSelected(fileName) {
         return this.state.selectedFile === fileName;
     }
 
@@ -45,14 +45,16 @@ export default class FileSection extends Component {
             <div className="file-section">
 
                 <div className="file-section-header">
-                    <span className="section-trigger" onClick={() => this.toggleCollapse()}><FontAwesomeIcon icon={icon} /></span>
-                    <span className="file-section-header-text">{this.props.title}</span>
+                    <div className="collapsable-section" onClick={() => this.toggleCollapse()}>
+                        <span className="section-trigger" ><FontAwesomeIcon icon={icon} /></span>
+                        <span className="file-section-header-text">{this.props.title}</span>
+                    </div>
                     <div className={contentClass}>
                         <ul className="file-list">
-                            <FileSocket name="Home" selected={this.isSelected('home')} onClick={() => this.setSelectedFile("home",<HomeSection/>)} />
-                            <FileSocket name="Contacts" selected={this.isSelected('contacts')} onClick={() => this.setSelectedFile("contacts",<ContactsSection/>)} />
-                            <FileSocket name="Projects" selected={this.isSelected('project')} onClick={() => this.setSelectedFile("project",'')} />
-                            <FileSocket name="Blami" selected={this.isSelected('blami')} onClick={() => this.setSelectedFile("blami",'')} />
+                            <FileSocket name="Home" selected={this.isSelected('home')} onClick={() => this.setSelectedFile("home", <HomeSection />)} />
+                            <FileSocket name="Contacts" selected={this.isSelected('contacts')} onClick={() => this.setSelectedFile("contacts", <ContactsSection />)} />
+                            <FileSocket name="Projects" selected={this.isSelected('project')} onClick={() => this.setSelectedFile("project", '')} />
+                            <FileSocket name="Blami" selected={this.isSelected('blami')} onClick={() => this.setSelectedFile("blami", '')} />
 
                         </ul>
                     </div>
