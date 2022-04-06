@@ -9,6 +9,7 @@
   max-height: 100vh;
   background-color: #1E1E1E;
   color:white;
+  overflow: hidden;
 }
 
 .page-header{
