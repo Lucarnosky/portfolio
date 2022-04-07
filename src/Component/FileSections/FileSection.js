@@ -22,7 +22,6 @@ export default class FileSection extends Component {
     }
 
     setSelectedFile(fileName, section) {
-        console.log(section);
         this.setState({ selectedFile: fileName });
         this.props.editorContent(section);
     }
@@ -54,8 +53,7 @@ export default class FileSection extends Component {
                             <FileSocket name="Home" selected={this.isSelected('home')} onClick={() => this.setSelectedFile("home", <HomeSection />)} />
                             <FileSocket name="Contacts" selected={this.isSelected('contacts')} onClick={() => this.setSelectedFile("contacts", <ContactsSection />)} />
                             <FileSocket name="Projects" selected={this.isSelected('project')} onClick={() => this.setSelectedFile("project", '')} />
-                            <FileSocket name="Blami" selected={this.isSelected('blami')} onClick={() => this.setSelectedFile("blami", '')} />
-
+                            <FileSocket name="Offers" selected={this.isSelected('offers')} onClick={() => this.setSelectedFile("offers", '')} />
                         </ul>
                     </div>
                 </div>

@@ -10,47 +10,33 @@ export default class Details extends Component {
                     <div className="detail-left-title" id="whoAmI">Who Am I</div>
                     Born on the 22 of January of the 1991 in a small city in Italy I've been always interested in computer and tech.<br />
                     At the age of 8 I got my first child PC, a Clementoni one, which had a Basic compiler and pack of instructions which teach you how to make basic programming.<br/>
-                    I have a background as barebu and computer science.<br />
+                    From that moment it was a full mind blowing experience, I was able to understand how the computer works and how to program it.<br/>
+                    All my study are around Informatic and programming<br />
                     I am currently working in an automotive and logistic company as a software engineer and team leader.<br />
-                    I am also a student at the University of Bologna, studying computer science and engineering.<br />
+                    By night, I create and deliver side projects for customers and myself<br />
                     <br />
                     <div className="detail-left-title" id="whatIDo">What I Do</div>
-                    I am a full stack developer, I have experience in the following technologies:<br />
-                    <ul>
-                        <li>JavaScript</li>
-                        <li>React</li>
-                        <li>Node.js</li>
-                        <li>Express</li>
-                        <li>MongoDB</li>
-                        <li>MySQL</li>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>Bootstrap</li>
-                        <li>Git</li>
-                        <li>GitHub</li>
-                        <li>GitLab</li>
-                        <li>GitFlow</li>
-                        <li>GitHub Pages</li>
-                        <li>GitLab Pages</li>
-                        <li>Webpack</li>
-                        <li>Webpack Dev Server</li>
-                        <li>Webpack Hot Module Replacement</li>
-                        <li>Webpack Bundle Analyzer</li>
-                        <li>Webpack Bundle Size Analyzer</li>
-                    </ul>
+                    I am a full stack developer, I can develop from simple website to complex application.<br />
+                    Most of the time I'm making web app because the future is online<br/>
+                    I'm also a front-end developer, I can make responsive web app and mobile app.<br/>
+                    I'm also a back-end developer, I can make server side app and database managing.<br/>
+                    I also have experience in coordination of teams thanks to my goal-driven personality.<br/>
                     <br />
-                    <div className="detail-left-title" id="myExperience">My Experiences</div>
-                    From May 2012 to August 2016 I worked as a software engineer at a logistic company.<br />
-                    I was responsible for the development of the software for the company.<br />
-                    <div className="detail-left-title" id="mySkills">My Skills</div>
-                    Test Here
+                    <div className="detail-left-title" id="whatILove">What I Love</div>
+                    I love to learn new things and I'm always looking for new challenges.<br />
+                    I want to create programs and solutions which are suited to the needs of the customer.<br />
+                    I want to make the difference with every new project and put my best effort to make it happen.<br />
+                    <br />
+                    <div className="detail-left-title" id="whatILove">More about me</div>
+                    Except from the above, I'm a self-teached guitar player, mainly I'm what people call a campfire strummer<br/>
+                    I love the game of chess and I'm amazed how much is deep the game and how is evolving. You can learn a lot from it<br/>
                 </div>
                 <div className="detail-right-content">
                     <div className="detail-right-title">Sections</div>
                     <a className="detail-shortcut" href="#whoAmI">Who am I</a>
                     <a className="detail-shortcut" href="#whatIDo">What I Do</a>
-                    <a className="detail-shortcut" href="#myExperience">My Experiences</a>
-                    <a className="detail-shortcut" href="#mySkills">My Skills</a>
+                    <a className="detail-shortcut" href="#myExperience">What I Love</a>
+                    <a className="detail-shortcut" href="#mySkills">More about me</a>
                 </div>
             </div>
         );
