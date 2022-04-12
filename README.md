@@ -6,7 +6,7 @@ I took inspiration from online theme where people were trying to reconstruct the
 
 ## Roadmap
 
-* [] Creating different static sections
+[] Creating different static sections
 * [ ] Retrieve Github stats and display them on the github section
 * [ ] Create a blog section
 
