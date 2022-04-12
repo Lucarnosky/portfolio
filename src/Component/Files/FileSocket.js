@@ -8,8 +8,10 @@ export default class File extends Component {
         const classes = `file-socket ${selection}`;
         return (
             <li className={classes} onClick={this.props.onClick}>
-                <img src={jsLogo} alt="js" className="file-icon" />
-                <span className="file-name-text">{this.props.name}</span>
+                <nobr>
+                    <img src={jsLogo} alt="js" className="file-icon" />
+                    <span className="file-name-text">{this.props.name}</span>
+                </nobr>
             </li>
         );
     }
