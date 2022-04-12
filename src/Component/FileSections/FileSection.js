@@ -5,12 +5,13 @@ import FileSocket from '../Files/FileSocket';
 import { faAngleDown, faAngleRight } from '@fortawesome/free-solid-svg-icons'
 import HomeSection from '../EditorContents/Home';
 import ContactsSection from '../EditorContents/Contacts';
+import jsLogo from '../../imgs/js.png';
 
 export default class FileSection extends Component {
 
     constructor(props) {
         super(props);
-        this.state = { isCollapsed: false };
+        this.state = { isCollapsed: false, selectedFile: '' };
     }
 
     toggleCollapse() {
@@ -50,10 +51,10 @@ export default class FileSection extends Component {
                     </div>
                     <div className={contentClass}>
                         <ul className="file-list">
-                            <FileSocket name="Home" selected={this.isSelected('home')} onClick={() => this.setSelectedFile("home", <HomeSection />)} />
-                            <FileSocket name="Contacts" selected={this.isSelected('contacts')} onClick={() => this.setSelectedFile("contacts", <ContactsSection />)} />
-                            <FileSocket name="Projects" selected={this.isSelected('project')} onClick={() => this.setSelectedFile("project", '')} />
-                            <FileSocket name="Offers" selected={this.isSelected('offers')} onClick={() => this.setSelectedFile("offers", '')} />
+                            <FileSocket name="Home" logo={jsLogo} selected={this.isSelected('home')} onClick={() => this.setSelectedFile("home", <HomeSection />)} />
+                            <FileSocket name="Contacts" logo={jsLogo} selected={this.isSelected('contacts')} onClick={() => this.setSelectedFile("contacts", <ContactsSection />)} />
+                            <FileSocket name="Projects" logo={jsLogo} selected={this.isSelected('project')} onClick={() => this.setSelectedFile("project", '')} />
+                            <FileSocket name="Offers" logo={jsLogo} selected={this.isSelected('offers')} onClick={() => this.setSelectedFile("offers", '')} />
                         </ul>
                     </div>
                 </div>

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import jsLogo from '../../imgs/js.png';
-
+import './FileSocket.css';
 export default class File extends Component {
 
     render() {
@@ -9,7 +8,7 @@ export default class File extends Component {
         return (
             <li className={classes} onClick={this.props.onClick}>
                 <nobr>
-                    <img src={jsLogo} alt="js" className="file-icon" />
+                    <img src={this.props.logo} alt="js" className="file-icon" />
                     <span className="file-name-text">{this.props.name}</span>
                 </nobr>
             </li>
