@@ -48,7 +48,7 @@ export default class MainPage extends Component {
                     <span className="icon-section">
                         <div className="top-icon">
                             <Icon icon={faFileCode} onClick={() => this.handleSelectOption("FileCode",<FileSection title="Open Pages" editorContent={this.setEditorContent}/>)} selected={this.isSelected("FileCode")} />
-                            <Icon icon={faCodeBranch} onClick={() => this.handleSelectOption("CodeBranch",<GithubSection/>)} selected={this.isSelected("CodeBranch")} />
+                            <Icon icon={faCodeBranch} onClick={() => this.handleSelectOption("CodeBranch",<GithubSection editorContent={this.setEditorContent}/>)} selected={this.isSelected("CodeBranch")} />
                             <Icon icon={faMagnifyingGlass} onClick={() => this.handleSelectOption("Search",'')} selected={this.isSelected("Search")} />
                         </div>
                     </span>

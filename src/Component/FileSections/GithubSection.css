@@ -1,0 +1,11 @@
+.markdown-display{
+    margin-left:200px;
+    display:flex;
+    flex-direction:column;
+    color:#C1CCCC;
+}
+
+.markdown-display a{
+    text-decoration: none;
+    color: #4D4D4D;;
+}
