@@ -1,29 +1,6 @@
 <div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-
-<!-- PROJECT LOGO -->
-<!--<br />
 <div align="center">
-  <a href="https://github.com/Lucarnosky/portfolio">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>-->
 
 <h3 align="center">Garnock Portfolio</h3>
 
@@ -41,9 +18,6 @@
   </p>
 </div>
 
-
-
-<!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -66,9 +40,6 @@
   </ol>
 </details>
 
-
-
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 ![alt text](https://i.imgur.com/rXUhQxQ.png)
 
@@ -85,8 +56,6 @@
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
-<!-- GETTING STARTED -->
 ## Getting Started
 
 If you like the template you can reuse by your own. To set up your project locally and run it,
@@ -118,7 +87,6 @@ Update npm to latest version (if you don't know how to install npm follow [these
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-<!-- ROADMAP -->
 ## Roadmap
 
 - [ ] Creating different static sections
@@ -132,8 +100,6 @@ See the [open issues](https://github.com/Lucarnosky/portfolio/issues) for a full
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
-<!-- CONTRIBUTING -->
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -150,17 +116,12 @@ Don't forget to give the project a star! Thanks again!
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
-<!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
-<!-- CONTACT -->
 ## Contact
 
 Matteo Lucarno - [@JarringTheo](https://twitter.com/JarringTheo) - lucarnosky@gmail.com
@@ -169,9 +130,6 @@ Project Link: [https://github.com/Lucarnosky/portfolio](https://github.com/Lucar
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/Lucarnosky/portfolio.svg?style=for-the-badge
 [contributors-url]: https://github.com/Lucarnosky/portfolio/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Lucarnosky/portfolio.svg?style=for-the-badge
