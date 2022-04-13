@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Details from './HomeContents/Details';
 import TechStack from './HomeContents/TechStack';
-
+import Contributions from './HomeContents/Contributions';
 import "./Home.css";
 
 export default class HomeSection extends Component {
@@ -33,7 +33,7 @@ export default class HomeSection extends Component {
                 <div className="homeContent-sections">
                     <span className={`detail-voice ${this.isSelected('details') ? "active-voice" : ""}`} onClick={() => this.setSelectedVoice('details',<Details/>)}>Details</span>
                     <span className={`detail-voice ${this.isSelected('tech') ? "active-voice" : ""}`} onClick={() => this.setSelectedVoice('tech',<TechStack/>)}>Tech Stack</span>
-                    <span className={`detail-voice ${this.isSelected('contribution') ? "active-voice" : ""}`} onClick={() => this.setSelectedVoice('contribution')}>Contributions</span>
+                    <span className={`detail-voice ${this.isSelected('contribution') ? "active-voice" : ""}`} onClick={() => this.setSelectedVoice('contribution',<Contributions/>)}>Contributions</span>
                     <span className={`detail-voice ${this.isSelected('projects') ? "active-voice" : ""}`} onClick={() => this.setSelectedVoice('projects')}>Projects</span>
                 </div>
                 <div className='homeContent-text'>

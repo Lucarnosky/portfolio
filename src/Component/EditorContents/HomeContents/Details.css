@@ -33,8 +33,6 @@
   border-bottom: 1px solid #4D4D4D;
 }
 
-
-
 .detail-right-title{
   display: flex;
   width: 100%;
@@ -51,6 +49,12 @@
 
 .detail-shortcut:hover{
   text-decoration: underline;
+}
+
+.section-emphasis{
+  font-weight: 500;
+  font-size: 1.2em;
+  color: #D4D4D4;
 }
 
 ::-webkit-scrollbar {
