@@ -19,11 +19,11 @@
 -->
 
 <!-- PROJECT LOGO -->
-<br />
+<!--<br />
 <div align="center">
   <a href="https://github.com/Lucarnosky/portfolio">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+  </a>-->
 
 <h3 align="center">Garnock Portfolio</h3>
 
@@ -76,7 +76,7 @@ I took inspiration from online theme where people were trying to reconstruct the
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://imgur.com/a/2eSAkoJ)
+[![Product Name Screen Shot][product-screenshot]](https://i.imgur.com/rXUhQxQ.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
