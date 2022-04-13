@@ -71,7 +71,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://i.imgur.com/rXUhQxQ.png)
+[![Product Name Screen Shot][https://i.imgur.com/rXUhQxQ.png]](https://i.imgur.com/rXUhQxQ.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
