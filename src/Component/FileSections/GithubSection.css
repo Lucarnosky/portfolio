@@ -1,8 +1,8 @@
 .markdown-display{
-    margin-left:200px;
     display:flex;
     flex-direction:column;
     color:#C1CCCC;
+    overflow-y: scroll;
 }
 
 .markdown-display a{
