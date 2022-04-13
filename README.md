@@ -18,11 +18,6 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-[![Issues][issues-shield]][https://github.com/Lucarnosky/portfolio/issues]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/matteo-lucarno-b22575188/]
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
