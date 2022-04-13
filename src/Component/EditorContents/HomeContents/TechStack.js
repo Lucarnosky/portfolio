@@ -44,6 +44,9 @@ export default class TechStack extends Component {
                     <ul>
                         <li>Git</li>
                         <li>GitHub</li>
+                        <li>Docker</li>
+                        <li>Linux Server</li>
+                        <li>Windows</li>
                         <li>Jira Software</li>
                         <li>Trello</li>
                         <li>Slack</li>
