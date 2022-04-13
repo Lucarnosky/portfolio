@@ -28,9 +28,7 @@
 <h3 align="center">Garnock Portfolio</h3>
 
   <p align="center">
-    This is me creating a basic portfolio, I intentionally used only react.
-
-I took inspiration from online theme where people were trying to reconstruct the Visual Studio Code UI but without finding it totally satyisfing, so I've created one by myself.
+    This is me creating a basic portfolio, I intentionally used only react.I took inspiration from online theme where people were trying to reconstruct the Visual Studio Code UI but without finding it totally satyisfing, so I've created one by myself.
     <br />
     <a href="https://github.com/Lucarnosky/portfolio"><strong>Explore the docs »</strong></a>
     <br />
@@ -62,12 +60,9 @@ I took inspiration from online theme where people were trying to reconstruct the
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
